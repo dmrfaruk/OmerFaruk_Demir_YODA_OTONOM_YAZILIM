@@ -1,17 +1,31 @@
  OmerFaruk_Demir_YODA_OTONOM_YAZILIM
  
-#Repository githubda kişinin,kişilerin birlikte çalışmasını ya da aynı şekilde bir takımın birbirinden haberdar bir şekilde proje yürütmesini sağlayan bir ortamdır.Burada projenin kodları public veye private şeklinde tutulur.Takımda birisi yanlış birşey yaptığında proojenin önceki sürümlere dönmek gibi avantajları vardır repositorie'nin.Kodların tutulduğu bir depo benzetmesi yapabiliriz.
+#Repository githubda kişinin,kişilerin birlikte çalışmasını ya da aynı şekilde bir takımın birbirinden haberdar bir şekilde proje yürütmesini sağlayan bir ortamdır.Burada projenin kodları public veye private şeklinde tutulur.Takımda birisi yanlış birşey yaptığında projenin önceki sürümlere dönmek gibi avantajları vardır repositorie'nin.Kodların tutulduğu bir depo benzetmesi yapabiliriz.
 
 Commite gelirsek commit bizim yeni yaptığımız kodları veya kodlarda yaptığımız değişiklikleri repositorye yüklemektir.Takım arkadaşlarımızı aynı repositorye ekleyebiliriz ama onlarda değişiklik vb.
 yapıp commit ettiklerinde repository sahibinin izni lazımdır oraya yüklemek için.Bundan dolayı repository sahibine bu kodlar gönderilir eklensin mi diye.
 
 Branch ve merge kavramlarına gelirsek projeler 3-5 satır kodlardan oluşmayacak,bir sürü kişi proje için çalışacak bundan dolayı herkese farklı görev verilecek.Örneğin YODA'da yapıldığı gibi projede yazılım için farklı işlerle uğraşılacak burada bütün kodların toplanacağı yer main dosyası olacak ama herkes buraya kodları yazınca eklemeyecek direket.Herkes kendi branch'inde binevi kendi yerinde kodları yazıcak,test edicek hata var mı kontrol edicek main dosyayla kontrol edicek ondan sonra merge işlemine geçicek aslında merge işlemini branch ile main dosyasının birleşimi gibi düşünebiliriz.
 
-Stage işlemini commit atmadan önce kodların tutulduğu yer gibi düşünebiliriz çünkü koldar üzerinde değişiklikler yapabiliriz çünkü öyle durumlar yaşanabilir.stage alanından sonra seçilenleri commit yapabiliriz ama.
+Stage işlemini commit atmadan önce kodların tutulduğu yer gibi düşünebiliriz çünkü kodlar üzerinde değişiklikler yapabiliriz çünkü öyle durumlar yaşanabilir.stage alanından sonra seçilenleri commit yapabiliriz ama.
 
 Son olarak push ve pull kavarmlarına değineceğim bunlar biraz birbirine zıt çünkü push kavramı yerel yani bilgisayardaki commitleri github'a gönderir böylece arkadaşlarımız o dosyalara erişebilir pull iste tam tersi arkadaşlarımız eklemiştir biz onu kendi bilgisayarımıza çekiyoruzdur.<img width="317" height="410" alt="image" src="https://github.com/user-attachments/assets/cfc3c779-69d3-41b6-b387-5f5a234336e1" />
 
 Buradaki dallarda aşağıdan yukarıya gitmeyi kronolojik düşünebiliriz en aşağıdaki mavi hat main dosyayı,ayrılan sarı hat branch'i yani ayrı bir yerde yapılan farklı bir çalışmayı gösteriyor ondan sonra mavi ve sarı hat birleşiyor burası merge işlemi.Ondan sonra devam eden mor hat readme dosyasında yapılan değişiklikleri temsil ediyor.
+
+"TAKIMLAR NEDEN GİT VE HİTHUB KULLANIR?" BÖLÜMÜ
+
+Takımların neden github kullandığı bellidir aslında yazılan her bir kodun takibini yapmak.Uzun vadede geriye dönük neler yapılacağına bakmak gerekir,kodların uyumsuzluk çıkarıp çıkarılmadığına bakmak gerekir ve hızlıca iş bölümüne ayırıp kodları uyumlu bir şekilde birleştirmek git ve githubı yazılımcılar için nereyse zorunlu kılar.
+
+Basitçe söylemek gerekirse git bilgisayarda kodları takip eden branch yapmamızı sağlayan farklı sürümlere dönmemize olanak sağlayan bir sürüm kontrol sistemidir.Github ise internet üzerinden kodların paylaşıldığı takımların birlikte çalıştığı ve proje yedekleme gibi işlerin döndüğü bir ortamdır.
+
+Takımlar birbirinin çalışmasını aralarında iş bölümü yaparak farklı branchler ile devam edebilirler daha sonra pull request ile repostry sahibine kodları gönderir ve cod review aşamasında kodlar incelenebilir örneğin merge conflict olup olmadığı 2 kişinin aynı kod üzerinde çalışması sonucu oluşan çakışmanın düzeltilmesinde code review aşaması etkili olabilir.
+
+üyelerin kulüpten ve projeden ayrılması durumunda githubdaki repostory özelliği devreye girmeli ve o zamana kadar kullanılan herşey oraya klonlanmalı aktarılmalı ki yeni gelen veya başka birisi onun yerine devam edebilsin ve vizyonu öğrenebilsin.
+
+Projelerde gruplara ayrılan ekipler farklı branchlerden devam etmelidir böylece kodlar birbirine karışmaz.Ardından birleştirmeyle ortaya çıkan sorunlar giderilince temiz bir kod çıktısı oluşabilir.Yazılımda kullanılan sürümleri yani araçta kullanılan sürümleri githubda eklediğimiz sürümü kaydederek bulabiliriz.
+
+Git ve github dikkatli code review yapılmazsa büyük sıkıntılar yaratabilir kodlar birbiriyle çakışabilir öte yandan farklı branchlarda yazılan kodların uyumsuz olması yani aslında ekip arasındaki iletişimsizlik projenin başarısızlığıyla veya gereken sürenin uzamasıyla sonuçlanabilir.
 
 
 
